@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+    <link href="login.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="form-login">
+            <h2>Đăng nhập</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-key"></i></span>
+                    <input type="password" required>
+                    <label>Mật khẩu</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> Nhớ mật khẩu</label>
+                    <a href="">Quên mật khẩu</a>
+                </div>
+                <button type="submit" class="btn">Đăng nhập</button>
+                <div class="login-register">
+                    <p>Không có tài khoản? <a href="#" class="register-link">Đăng kí</a></p>
+                </div>
+                </form>
+        </div>
+        <div class="form-register">
+            <h2>Đăng kí</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" required>
+                    <label>Họ và tên</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-regular fa-calendar-days"></i></span>
+                    <input type="date" required>
+                    <label></label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-key"></i></span>
+                    <input type="password" required>
+                    <label>Mật khẩu</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-key"></i></span>
+                    <input type="password" required>
+                    <label>Nhập lại mật khẩu</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox"> Xác nhận tài khoản</label>
+                </div>
+                <button type="submit" class="btn">Đăng kí</button>
+                <div class="login-register">
+                    <p>Bạn đã có tài khoản <a href="#" class="login-link">Đăng nhập</a></p>
+                </div>
+                </form>
+        </div>    
+    </div>
+    <script src="web.js"></script>
+</body>
+</html>

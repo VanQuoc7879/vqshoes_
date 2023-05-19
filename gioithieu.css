@@ -1,0 +1,92 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background: #333;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content_all_box {
+    border: 1px solid;
+    max-width: 600px;
+    background-color: #b4c9c9;
+}
+
+.setHeader {
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+
+.set_all_avt {
+    padding: 15px 0px 0 15px;
+}
+
+.box_text_first {
+    padding-left: 20px;
+    padding-top: 10%;
+    width: 100%;
+}
+
+.avatar_Profile {
+    border-radius: 50%;
+    border: 3px solid #000000;
+    height: 60%;
+}
+
+
+h3 {
+    text-align: center;
+    color: #000000;
+}
+
+
+.text-first {
+    font-weight: 550;
+    font-size: 16px;
+    color: black;
+}
+
+.text-last {
+    font-weight: 550;
+    font-size: 16px;
+    color: red;
+}
+
+
+
+.contact-all {
+    display: flex;
+    justify-content: center;
+}
+
+.contact_chung {
+    font-size: 20px;
+}
+
+.contact_chung-child {
+    padding: 0 20px 10px 20px;
+}
+
+.editContact-fb {
+    color: #0058a4;
+}
+
+.gt{
+    display: inline;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 800px) {
+    .content_all_box {
+        margin-top: 0;
+    }
+
+    .content_all_box {
+        min-width: 600px;
+    }
+}
